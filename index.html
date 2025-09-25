@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KI-Posteingang Cockpit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#1E40AF',
+                '50': '#EBF2FF',
+                '100': '#D9E5FF',
+                '200': '#B6CBFF',
+                '300': '#93B1FF',
+                '400': '#7097FF',
+                '500': '#4D7DFF',
+                '600': '#2A63FF',
+                '700': '#1E40AF',
+                '800': '#173084',
+                '900': '#102059',
+              },
+              accent: {
+                DEFAULT: '#F59E0B',
+                '50': '#FFFBEB',
+                '100': '#FEF3C7',
+                '200': '#FDE68A',
+                '300': '#FCD34D',
+                '400': '#FBBF24',
+                '500': '#F59E0B',
+                '600': '#D97706',
+                '700': '#B45309',
+                '800': '#92400E',
+                '900': '#78350F',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

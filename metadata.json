@@ -1,0 +1,5 @@
+{
+  "name": "KI-Posteingang Cockpit",
+  "description": "Ein Prototyp eines KI-gestützten Posteingang-Cockpits für Immobilienverwaltungen. Die KI klassifiziert, fasst zusammen und schlägt Antworten vor, ohne E-Mails zu senden oder zu löschen.",
+  "requestFramePermissions": []
+}
